@@ -1,0 +1,7 @@
+vendor/
+node_modules/
+.env
+storage/uploads/images/*
+!storage/uploads/images/.gitkeep
+.DS_Store
+Thumbs.db

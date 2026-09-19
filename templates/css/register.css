@@ -1,0 +1,47 @@
+@import url(global.css);
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  background: #f5f5f5;
+}
+.box {
+  width: 100%;
+  max-width: 400px;
+  border: 1px solid #111;
+  background: #fff;
+  padding: 24px;
+}
+.box h1 {
+  font-size: 22px;
+  margin-bottom: 4px;
+}
+.box p {
+  margin-bottom: 20px;
+}
+.box label {
+  display: block;
+  font-size: 13px;
+  margin: 14px 0 6px;
+  font-weight: 600;
+}
+.box button {
+  width: 100%;
+  margin-top: 16px;
+}
+.box .alt {
+  text-align: center;
+  margin-top: 16px;
+  font-size: 14px;
+}
+.msg {
+  border: 1px solid #111;
+  padding: 10px;
+  margin-bottom: 16px;
+  font-size: 14px;
+}
+.msg.err {
+  background: #111;
+  color: #fff;
+}

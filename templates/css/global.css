@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family:
+    system-ui,
+    -apple-system,
+    sans-serif;
+  background: #fff;
+  color: #111;
+  min-height: 100vh;
+}
+a {
+  color: #111;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+a:hover {
+  opacity: 0.7;
+}
+input,
+select,
+button {
+  font: inherit;
+}
+input,
+select {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #111;
+  background: #fff;
+  color: #111;
+}
+input:focus,
+select:focus {
+  outline: 2px solid #111;
+  outline-offset: 1px;
+}
+button {
+  cursor: pointer;
+  border: 1px solid #111;
+  background: #111;
+  color: #fff;
+  padding: 10px 16px;
+}
+button:hover {
+  background: #fff;
+  color: #111;
+}
+.card {
+  border: 1px solid #111;
+  padding: 16px;
+  background: #fff;
+}
+.muted {
+  color: #555;
+  font-size: 14px;
+}

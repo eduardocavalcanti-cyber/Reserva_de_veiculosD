@@ -1,0 +1,25 @@
+{
+    "name": "bahia/reserva-veiculos",
+    "description": "Sistema acadêmico de reserva de veículos",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Controller\\": "Controller/",
+            "Model\\": "Model/"
+        },
+        "files": [
+            "Config/configuracao.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "bahia",
+            "email": "contato@bahia.local"
+        }
+    ],
+    "require": {
+        "php": ">=8.3",
+        "ext-pdo": "*",
+        "ext-pdo_mysql": "*"
+    }
+}
