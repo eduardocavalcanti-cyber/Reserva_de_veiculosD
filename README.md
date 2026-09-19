@@ -14,18 +14,15 @@ Sistema acadêmico de reserva de veículos desenvolvido em PHP com MVC simples, 
 
 ## Configuração
 
-O arquivo `Config/configuracao.php` lê as seguintes configurações do `.env`:
+O arquivo Config/configuracao.php lê as seguintes configurações do .env:
 
-```text
 DB_HOST=localhost
 DB_PORT=3306
 DB_NAME=reserva_veiculos
 DB_USER=root
 DB_PASSWORD=
-```
 
-Também existem valores padrão para desenvolvimento local caso o `.env` não exista.
-
+Também existem valores padrão para desenvolvimento local caso o .env não exista.
 
 ## BANCO DE DADOS
 
