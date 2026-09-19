@@ -1,5 +1,5 @@
 {
-    "name": "bahia/reserva-veiculos",
+    "name": "projeto/reserva-veiculos",
     "description": "Sistema acadêmico de reserva de veículos",
     "type": "project",
     "autoload": {
@@ -13,8 +13,8 @@
     },
     "authors": [
         {
-            "name": "bahia",
-            "email": "contato@bahia.local"
+            "name": "projeto",
+            "email": "contato@projeto.local"
         }
     ],
     "require": {
